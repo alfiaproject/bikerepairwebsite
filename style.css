@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    background-color:rgb(60, 78, 130);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color:rgb(131, 54, 122);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2 {
+    background-color:rgb(237, 134, 208);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3 {
+    background-color:rgb(120, 91, 117);
+    min-height: 300px;
+    width: 30%;
+}
+
+.herobox1 {
+    background-color:rgb(240, 82, 25);
+    flex: 2;
+}
+
+.herobox2 {
+    background-color:rgb(214, 160, 25);
+    flex: 1;
+}
+
+h1 {
+    font-size: 80px;
+    color: black;
+}
